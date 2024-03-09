@@ -1,0 +1,30 @@
+h1{
+    color: #0022ff;
+    font-size: 50px;
+}
+
+div{
+    color: #00fbff;
+    font-size: 30px;
+}
+
+p{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+a::after{
+    color: #ff8400;
+    font-size: 20px;
+}
+
+a::before{
+    color: #ff0000;
+    font-size: 20px;
+}
+
+ul{
+    border: 10px;
+}
+
+/* Path: KAIA/styles/UmiColor.css */

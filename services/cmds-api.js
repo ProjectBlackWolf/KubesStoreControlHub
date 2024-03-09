@@ -20,7 +20,7 @@ export const editCmd = (id, updatedCmd) => {
     return response;
 };
 
-export const createCmd = (Cmd) => {
+export const createCmd = (name, Cmd) => {
     const URL = baseURL;
     const response = axios.post(URL, Cmd);
     return response;
